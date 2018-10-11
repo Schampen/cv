@@ -1,0 +1,21 @@
+html {
+	border: solid black 2px;
+}
+
+body {
+	margin: 0px;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	border: solid black 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+img {
+	width: 10%;
+	height: 8%;
+	margin: 0 auto;
+}
