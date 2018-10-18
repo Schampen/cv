@@ -1,21 +1,115 @@
 html {
-	border: solid black 2px;
+	border: solid #303030 2px;
 }
 
 body {
 	margin: 0px;
 }
 
-nav {
+aside {
 	float: left;
-	width: 30%;
-	border: solid black 10px;
+	width: 40%;
+	border: solid #303030 10px;
 	text-align: center;
 	margin: 0 auto;
+	background-image: url("../bild/green.jpg");
+	background-size: 1230px; 
+}
+
+main  {
+	margin-left: 48%
+	width: 55%;
+	text-align: center;
+	margin: 0 auto;
+	border: solid #303030 10px;
 }
 
 img {
-	width: 10%;
-	height: 8%;
+	width: 200px;
+	height: 200px;
 	margin: 0 auto;
+	border-radius: 100px;
+}
+
+h1{
+	font-family: 'Noto Serif', serif;
+}
+
+h2 {
+	font-family: 'Noto Serif', serif;
+}
+
+li {
+	font-size: 1.4em;
+	font-family: Noto Sans, sans-serif;
+
+}
+
+p {
+	font-size: 1.4em;
+	font-family: Noto Sans, sans-serif;
+}
+
+.stick {
+	float: left;
+	margin-left: 40%;
+	width: 5%;
+	height: 100%
+	border: solid #303030;
+	background: #303030;
+	margin: 0 auto;
+	padding-bottom: 1234px;
+}
+
+.name {
+	text-align: center;
+	float: middle;
+	border: ridge grey 10px;
+	margin: 0 auto;
+	width: 30%;
+	height: 20%;
+	background: white;
+}
+
+.contact {
+	float: middle;
+	border: inset grey 10px;
+	margin: 0 auto;
+	width: 60%;
+	background: white;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.skills {
+	float: middle;
+	text-align: left;
+	border: outset grey 10px;
+	margin: 0 auto;
+	width: 60%;
+	background: white;
+	padding-left: 15px;
+}
+
+.checked {
+    color: orange;
+}
+
+.ech {
+	color: #303030;
+}
+
+.signature {
+	font-family: Charmonman, cursive;
+	font-size: 2em;
+}
+
+.sign {
+	text-align: center;
+	float: middle;
+	border: solid #303030 10px;
+	margin: 0 auto;
+	width: 50%;
+	height: 20%;
+	background: white;
 }
