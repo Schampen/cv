@@ -1,5 +1,5 @@
 html {
-	border: solid #303030 2px;
+	border: solid #303030 1px;
 }
 
 body {
@@ -14,7 +14,11 @@ aside {
 	margin: 0 auto;
 	background-image: url("../bild/green.jpg");
 	background-size: 2430px;
+<<<<<<< HEAD
 	height: 175vh;
+=======
+	height: 175.5vh;
+>>>>>>> 56a0ba0293ff9838fcc6c69c1fe88153ffd50993
 }
 
 main  {
